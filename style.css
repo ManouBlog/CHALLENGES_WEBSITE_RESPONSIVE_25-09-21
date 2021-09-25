@@ -350,7 +350,7 @@ ul li:first-child a{
     ul{
         display: block;
         position: absolute;
-        top:-70%;
+        top:-100%;
         background-color: rgb(255, 255, 255);
         width: 100%;
         left: 0;
@@ -399,7 +399,7 @@ ul li:first-child a{
    
     }
     .show{
-        top: 60px;
+        top: 80px;
     }
   
     .liens_pages:hover .pages_sub_liens{
