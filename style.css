@@ -534,3 +534,41 @@ ul li:first-child a{
  /**
  * !  style MEDIA QUERIES :400px;
 **/ 
+
+
+ /**
+ * !  STYLE PRIX
+**/ 
+
+.prix .one,.prix .two,.prix .three{
+    height: 520px;
+    background:white;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.466);
+    padding: 3em 3em 3em 3em;
+    border-radius: 25px;
+}
+.prix .two{
+    background: #41B883 ;
+}
+.prix *{
+    margin-bottom:1em;
+}
+.prix button{
+    width: 160px;
+    height: 60px;
+    background:#41B883;
+    padding: 0 .5em;
+    border-radius: 10px;
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-top: 2em;
+}
+.prix div {
+   margin: 1em auto;
+}
+
+
+
+ /**
+ * !  STYLE PRIX
+**/
