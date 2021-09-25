@@ -541,11 +541,12 @@ ul li:first-child a{
 **/ 
 
 .prix .one,.prix .two,.prix .three{
-    height: 520px;
+    height: 600px;
     background:white;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.466);
-    padding: 3em 3em 3em 3em;
+    padding: 2em;
     border-radius: 25px;
+  
 }
 .prix .two{
     background: #41B883 ;
@@ -566,6 +567,20 @@ ul li:first-child a{
 .prix div {
    margin: 1em auto;
 }
+.best_plan_offer{
+    position: relative;
+}
+.best_plan_offer .color{
+    position: absolute;
+    right: 35%;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(207, 135, 0);
+    border-radius: 50%;
+    z-index: -1;
+}
+
 
 
 

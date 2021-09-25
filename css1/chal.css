@@ -1,0 +1,42 @@
+.container{
+    background-color: white;
+    border-radius: 25px;
+box-shadow: 1px 1px 6px rgba(7, 7, 7, 0.5);
+text-align: center;
+margin-top: 13em;
+padding: 5em 0;
+}
+.vert{
+    margin-top: 5em;
+    margin-bottom: 25px;
+    background-color:#41B883;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.205);
+    padding: 4em 0;
+}
+.vert p{
+    font-size: 5em;
+}
+.vert button{
+    background: white;
+    width: 150px;
+    height: 60px;
+    padding: 0 .5em;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+}
+.footer{
+    text-align: center;
+    background-color: #25362E;
+    color: white;
+    padding: 2em;
+}
+.footer *{
+    margin-top: 1em;
+}
+.icon{
+    display: inline-block;
+    
+}

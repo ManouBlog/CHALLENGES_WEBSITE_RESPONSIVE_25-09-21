@@ -1,0 +1,193 @@
+.medias{
+    border-radius: 25px;
+   border-style: ridge;
+   
+   margin-bottom: 5px;
+}
+
+.medias:hover{
+    transform: scale(1.0);
+    transition: 0.1s all;
+}
+
+
+.medias:hover{
+    transition: 0.5s all;
+    box-shadow: 5px 2px 2px 5px rgba(18, 18, 59, 0.5);
+
+}
+
+.hachere{
+    position: relative;
+    bottom: 8px;
+    width: 45px;
+    height: 1px;
+    background-color: #41b883;
+}
+
+.poukoi{
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+
+.why{
+    font-weight: bold;
+    color: #41b883;
+    font-size: 20px;
+}
+
+.lorem{
+    font-size: 17px;
+}
+
+
+h1,h5{
+    font-size: 40px;
+}
+
+.fast-lorem{
+margin-right: 45px;
+text-align: left;
+margin-bottom: 35px;
+}
+
+
+/* persone-poiny-point-triangle */
+
+
+
+
+.people {
+    
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 60px;
+    display: block;
+       
+}
+
+.point-point {
+   
+    position: relative;
+    right: 128px;
+    bottom: 500px;
+    
+    
+  
+}
+
+.triangle {
+  
+   position: relative;
+   right: 0px;
+   left: 120px;
+   bottom: 140px;
+   
+  
+}
+
+
+
+/* ma section deux */
+
+.h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.carte{
+    border-radius: 35px 35px 35px 35px;
+    margin: 1em auto;
+    border: none;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.438);
+}
+
+.cartes{
+    border-radius: 35px 35px 35px 35px;
+    border: none;
+    margin: 1em auto;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.438);
+}
+
+.img1{
+    border-radius: 35px 35px 0px 0px;
+}
+
+.carte:hover{
+    transition: 0.1s all;
+}
+.carte:hover{
+    transition: 0.5s all; 
+}
+
+.cartes:hover{
+    transform: scale(1.0);
+    transition: 0.1s all;
+}
+.cartes:hover{
+    transition: 0.5s all;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.438);
+
+}
+.marge{
+    margin-top: 25px;
+}
+
+
+.whats{
+    position: relative;
+    top: 100px;
+}
+
+
+
+.last-section{
+    position: relative;
+    top: 150px;
+    margin-top: -8em;
+}
+
+.text-noir{
+    font-size: 24px;
+}
+
+.my_boule .boule{
+    width: 40px;
+    height: 40px;
+    background: chocolate;
+    border-radius: 100%;
+}
+.my_boule{
+    position: relative;
+}
+.my_boule p{
+    position: absolute;
+    left:5em;
+    top:-.8em;
+}
+
+.div-orange{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:500px) {
+    .card-body img{
+        width: 300px;
+        height:300px;
+    }
+    .triangle{
+        left: 10px;
+    }
+    .people{
+        margin: 0;
+    }
+    .point-point{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+
+
