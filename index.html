@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="style/fontawesome.css">
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css1/chal.css">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   
      <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -179,86 +176,60 @@
        * ! WORK-IMAGES
 **/ -->
  
-<div class="container">
-  
-    <div class="card-group">
-      <div class="card">
-        <div class="card-body text-center">
-            <img src="imgs/people-meeting-2-1.png" alt="" width="450px" height="440px" class="people">
-            <img src="imgs/dots-icon-1.png" alt="" class="point-point" width="136px" height="214px">
-            <img src="imgs/triangle-green-1.png" alt="" class="triangle" width="123px" height="118px">
+<div class="container-fluid d-flex my_container_jobs  gap-5 justify-content-evenly align-items-center mt-5 p-5">
+
+        <div class="image_meeting">
+            <div class="jobs">
+                <img src="imgs/people-meeting-2-1.png"alt="photo" class="people">
+            </div>
+            <img src="imgs/dots-icon-1.png" alt="" class="meeting_image" width="136px" height="214px">
+            <img src="imgs/triangle-green-1.png" alt="" class="meeting_triangle" width="123px" height="118px">
         </div>
+        <div class="why_choose_us">
+            <p class="why">Why Choose Us</p>
+            <h1 class="fw-bold">Fast and Product <br>
+                Quality.
+            </h1>
+            <p class="lorem mt-4 mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ut elit tellus, luctus nec ullamcorper mattis, 
+                pulvinar dapibus leo.
+            </p>
+            <div class="medias">
+                <img src="imgs/icon-light-1.png" style="width:60px">
+            <h6 >First Reason To Choose Us</h6>
+            <p>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.  <br> luctus nec 
+                ullamcorper mattis.
+            </p>
+            </div>
+            
+            <div class=" medias"> 
+                
+                <img src="imgs/icon-briefcast-1.png" style="width:60px">
+                <h6 >First Reason To Choose Us</h6>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. <br> luctus nec 
+                    ullamcorper mattis.
+                </p>
+               
+            </div>
+            <div class="medias">
+                    <img src="imgs/icon-bookmark-1.png" style="width:60px">
+                <h6>First Reason To Choose Us</h6>
+                <p >Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. <br> luctus nec 
+                    ullamcorper mattis.
+                </p>
+            </div>
+          
+        </div>
+
       </div>
 
-
-
-      <div class="card">
-        <div class="card-body text-center">
-            <div class="poukoi">
-                <hr class="hachere"></hr>
-                <p class="why">Why Choose Us</p>
-            </div>
-
-
-            <div class="fast-lorem">
-                <h1>Fast and Product <br>
-                    Quality.
-                </h1>
-
-                <p class="lorem">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Ut elit tellus, luctus nec ullamcorper mattis, 
-                    pulvinar dapibus leo.
-                </p>
-            </div>
-
-
-            <div class="media medias">
-                <img src="imgs/icon-light-1.png" class="align-self-center mr-3" style="width:60px">
-                <div class="media-body">
-                <h5 class="text-left">First Reason To Choose Us</h5>
-                <p class="text-left">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. 
-                    Ut elit tellus, luctus nec 
-                    ullamcorper mattis.
-                </p>
-                </div>
-            </div>
-
-            <div class="media medias">
-                <img src="imgs/icon-briefcast-1.png" class="align-self-center mr-3" style="width:60px">
-                <div class="media-body">
-                <h5 class="text-left">First Reason To Choose Us</h5>
-                <p class="text-left">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. 
-                    Ut elit tellus, luctus nec 
-                    ullamcorper mattis.
-                </p>
-                </div>
-            </div>
-
-            <div class="media medias">
-                <img src="imgs/icon-bookmark-1.png" class="align-self-center mr-3" style="width:60px">
-                <div class="media-body">
-                <h5 class="text-left">First Reason To Choose Us</h5>
-                <p class="text-left">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. 
-                    Ut elit tellus, luctus nec 
-                    ullamcorper mattis.
-                </p>
-                </div>
-            </div>
-        </div>
-      </div>
-      
-    </div>
-
-</div>
-
-    <div class="container Portfolio_images_works">
+    <div class="container  Portfolio_images_works">
 
         <div class="poukoi">
-            <hr class="hachere"></hr>
             <p class="why">Portfolio</p>
         </div>
 
@@ -277,7 +248,7 @@
         <div class="d-flex justify-content-between align-items-center flex-wrap">
               
                 <div class="carte" style="width:500px">
-                      <img class="img1" src="./imgs/pexels-tom-swinnen-10346462-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
+                      <img class="img1 image-fluid" src="./imgs/pexels-tom-swinnen-10346462-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
                       <div class="card-body">
                         <h4 class="card-title">Portfolio WordPress Theme</h4>
                         <p class="card-text">UI Design, Theme</p>
@@ -285,7 +256,7 @@
                 </div>
                 
                 <div class="cartes" style="width:500px">
-                      <img class="img1" src="./imgs/pexels-toni-cuenca-577558-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
+                      <img class="img1 image-fluid" src="./imgs/pexels-toni-cuenca-577558-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
                       <div class="card-body">
                         <h4 class="card-title">Portfolio WordPress Theme</h4>
                         <p class="card-text">UI Design, Theme</p>
@@ -298,7 +269,7 @@
     <div class="container marge">
         <div class=" d-flex justify-content-between align-items-center flex-wrap">
                 <div class="carte" style="width:500px">
-                      <img class="img1" src="./imgs/pexels-tranmautritam-68763-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
+                      <img class="img1 image-fluid" src="./imgs/pexels-tranmautritam-68763-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
                       <div class="card-body">
                         <h4 class="card-title">Portfolio WordPress Theme</h4>
                         <p class="card-text">UI Design, Theme</p>
@@ -306,7 +277,7 @@
                 </div>
                 
                 <div class="cartes" style="width:500px">
-                      <img class="img1" src="imgs/pexels-tranmautritam-285814-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
+                      <img class="img1 image-fluid" src="imgs/pexels-tranmautritam-285814-1-1024x682.jpg" alt="Card image" width="550px" height="440px"  style="width:100%">
                       <div class="card-body">
                         <h4 class="card-title">Portfolio WordPress Theme</h4>
                         <p class="card-text">UI Design, Theme</p>
@@ -388,10 +359,10 @@
     </div>
 
 
-    <div class="card-deck">
-      <div class="card ">
+    <div class="d-flex commentaire_texte gap-3">
+      <div class="card border-0">
         <div class="card-body ">
-         <p class="text-left text-noir">
+         <p class="fw-bold">
             “ Lorem ipsum dolor sit amet, 
             cons adipiscing  elit. Curabitur
              vel est a massa ornare tempor.  
@@ -407,9 +378,9 @@
 
         </div>
       </div>
-      <div class="card">
+      <div class="card border-0">
         <div class="card-body text-center">
-            <p class="text-left text-noir">
+            <p class="fw-bold">
                 “ Lorem ipsum dolor sit amet, 
                 cons adipiscing elit. Curabitur
                  vel est a massa ornare tempor. 
@@ -438,8 +409,8 @@
     <!-- /**
        * ! footer
 **/ -->
-<div class="container">
-    <div class="row">
+<div class="container pied-bas">
+    <div class="row gap-0">
         <article class="col">
             <img src="image/icon-light-1.png" alt="photo">
             <p>
@@ -494,7 +465,7 @@
             <b class="icon">
          <img src="image/dribbble-removebg-preview.png" height="60px" alt="dri">
             </b>
-             <p class="fw-bold my-5">Copyright Portosia 2020, All Right Reserved</p>
+             <p class="m-0 p-0">Copyright Portosia 2020, All Right Reserved</p>
     </footer>
      <!-- /**
        * ! footer

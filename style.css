@@ -199,12 +199,9 @@ ul li:first-child a{
     right:2em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
 }
-
-
 /**
  * !  STYLE HEADER_BIENVENUE AVEC IMAGE ET HELLO
-                    **/
-                   
+                    **/            
 /**
  * !  STYLE LOGO
 **/
@@ -300,20 +297,61 @@ ul li:first-child a{
     top:4em;
     right:10em;
     transition: 0.6s ease-in-out all;
-    
-  
 }
 .experience_triangle:hover{
     transform: rotate(20deg);
 }
-
-
 /**
  * !  STYLE  EXPERIENCES DEVELOPMENT ENGINEER
 **/
 
+ /**
+ * !  STYLE PRIX
+**/ 
 
-
+.prix .one,.prix .two,.prix .three{
+    height: 600px;
+    background:white;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.466);
+    padding: 2em;
+    border-radius: 25px;
+  
+}
+.prix .two{
+    background: #41B883 ;
+}
+.prix *{
+    margin-bottom:1em;
+}
+.prix button{
+    width: 160px;
+    height: 60px;
+    background:#41B883;
+    padding: 0 .5em;
+    border-radius: 10px;
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-top: 2em;
+}
+.prix div {
+   margin: 1em auto;
+}
+.best_plan_offer{
+    position: relative;
+}
+.best_plan_offer .color{
+    position: absolute;
+    right: 35%;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(207, 135, 0);
+    border-radius: 50%;
+    z-index: -1;
+}
+ /**
+ * !  STYLE PRIX
+**/
 
  /**
  * !  style MEDIA QUERIES :1024px;
@@ -350,7 +388,7 @@ ul li:first-child a{
     ul{
         display: block;
         position: absolute;
-        top:-100%;
+        top:-200%;
         background-color: rgb(255, 255, 255);
         width: 100%;
         left: 0;
@@ -394,12 +432,9 @@ ul li:first-child a{
     }
     .ferme span:nth-child(3){
         transform: rotate(93deg);
-       
-      
-   
     }
     .show{
-        top: 80px;
+        top: 50px;
     }
   
     .liens_pages:hover .pages_sub_liens{
@@ -413,9 +448,9 @@ ul li:first-child a{
  * !  style MEDIA QUERIES :1024px;
 **/ 
 
- /**
+/**
  * !  style MEDIA QUERIES :700px;
-**/    
+**/ 
 @media (max-width:700px) {
 
     .header_bienvenue_image .rond_grey{
@@ -450,17 +485,14 @@ ul li:first-child a{
        
     }
     .experience_triangle{
-        
         top:1em;
         right:0;
-     
-        
-      
     }
 }
  /**
  * !  style MEDIA QUERIES :700px;
 **/ 
+
 
  /**
  * !  style MEDIA QUERIES :500px;
@@ -496,6 +528,7 @@ ul li:first-child a{
  /**
  * !  style MEDIA QUERIES :500px;
 **/ 
+
 
  /**
  * !  style MEDIA QUERIES :400px;
@@ -551,61 +584,11 @@ ul li:first-child a{
         bottom: 23%;
         left: -1em;
     }
+    .best_plan_offer .color{
+        right: 10%;
+    }
     
 }
  /**
  * !  style MEDIA QUERIES :400px;
 **/ 
-
-
- /**
- * !  STYLE PRIX
-**/ 
-
-.prix .one,.prix .two,.prix .three{
-    height: 600px;
-    background:white;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.466);
-    padding: 2em;
-    border-radius: 25px;
-  
-}
-.prix .two{
-    background: #41B883 ;
-}
-.prix *{
-    margin-bottom:1em;
-}
-.prix button{
-    width: 160px;
-    height: 60px;
-    background:#41B883;
-    padding: 0 .5em;
-    border-radius: 10px;
-    margin-left:50%;
-    transform: translateX(-50%);
-    margin-top: 2em;
-}
-.prix div {
-   margin: 1em auto;
-}
-.best_plan_offer{
-    position: relative;
-}
-.best_plan_offer .color{
-    position: absolute;
-    right: 35%;
-    top: 0;
-    width: 100px;
-    height: 100px;
-    background: rgb(207, 135, 0);
-    border-radius: 50%;
-    z-index: -1;
-}
-
-
-
-
- /**
- * !  STYLE PRIX
-**/
